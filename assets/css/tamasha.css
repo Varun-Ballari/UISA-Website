@@ -1,0 +1,666 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+    min-height: 716px;
+    width: 100%;
+}
+/*----------------------------------------------------------------------------*/
+
+header {
+    position: fixed;
+    width: 100%;
+    background: rgba(255, 255, 255, 1);
+    top:0px;
+    z-index: 10;
+}
+
+header ul {
+    height: 100px;
+    padding-left: 150px;
+    padding-right: 150px;
+
+    list-style: none;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+header ul li {
+    text-align: center;
+    justify-content: center;
+    display: inline-block;
+}
+
+
+header ul li a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+/*header ul li a:hover {
+    color: rgba(0, 0, 0, 0.7);
+}*/
+
+.li1 {
+    flex: 2;
+    text-align: left;
+    transition: 1s;
+}
+
+.li1:hover {
+   margin-left:-10px;
+}
+
+.li2 {
+    flex: 10;
+    font-family: Ollie;
+    font-size: 50px;
+    color: black;
+}
+
+
+.li3 {
+    flex: 1;
+    transition: 1s;
+}
+
+.li3:hover {
+    margin-right:-10px;
+}
+/*----------------------------------------------------------------------------*/
+
+.main {
+    height: calc(100% - 100px);
+}
+
+#page1 {
+    height: calc(100% - 100px); /*270*/
+    margin-top: 100px;
+    background-image: url("../images/background-page1.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+}
+
+.red-background {
+    height: 100%;
+    background: red;
+    background: -webkit-linear-gradient(left,rgba(253,79,79,1), rgba(253,79,79,0.9), rgba(214,42,67,0.1));
+    background: -o-linear-gradient(left,rgba(253,79,79,1), rgba(253,79,79,0.9), rgba(214,42,67,0.1));
+    background: -moz-linear-gradient(left,rgba(253,79,79,1), rgba(253,79,79,0.9), rgba(214,42,67,0.1));
+    background: linear-gradient(to right, rgba(253,79,79,1), rgba(253,79,79,0.9), rgba(214,42,67,0.1));
+}
+
+.page1-info-outer {
+    display: inline-block;
+    float: left;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    justify-content: center;
+
+}
+
+.page1-info-inner {
+    display: inline-block;
+    margin: auto;
+    padding: 20px;
+    margin-top: 50px;
+    justify-content: center;
+
+}
+
+.div-Page1Info {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+}
+
+#clockdiv{
+    font-family: SanFran-Bold;
+    color: #fff;
+    display: inline-block;
+    font-weight: 100;
+    text-align: center;
+    font-size: 60px;
+    text-transform: uppercase;
+
+}
+
+.clockElement {
+    display: inline-block;
+    width: 100px;
+    margin: auto;
+}
+
+
+.smalltext{
+    font-family: SanFran-UltraLight;
+    padding-top: 3px;
+    font-size: 16px;
+}
+
+
+.button {
+    border-radius: 10px;
+    background-color: white;
+    border: none;
+    color: #fd4f4f;
+    font-family: Ollie;
+    font-size: 25px;
+    width: 200px;
+    height: 50px;
+    padding: 5px;
+    text-align: center;
+    display: inline-block;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #fd4f4f;
+    color: white;
+}
+/*----------------------------------------------------------------------------*/
+
+.page2 {
+    background-color: #f4f4f4;
+    width: 100%;
+}
+
+.quick-info-outer {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 0;
+    display: inline-flex;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    -webkit-flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.quick-info {
+    justify-content: center;
+    text-transform: uppercase;
+    text-align: left;
+    width: 300px;
+    padding: 20px;
+}
+
+.question {
+    font-family: SanFran-UltraLight;
+    opacity: 0.4;
+}
+
+.answer {
+    font-family: Dense-Bold;
+    font-size: 50px;
+}
+
+.explanation {
+    font-family: Dense-Regular;
+    font-size: 20px;
+    opacity: 0.4;
+}
+
+/*----------------------------------------------------------------------------*/
+#page3 {
+    min-height: calc(100% - 100px); /*270*/
+    background-image: url("../images/background-page2.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+}
+
+.red-background-backwards {
+    height: 100%;
+    background: red;
+    background: -webkit-linear-gradient(left,rgba(214,42,67,0.1), rgba(253,79,79,0.9), rgba(253,79,79,1));
+    background: -o-linear-gradient(left,rgba(214,42,67,0.1), rgba(253,79,79,0.9), rgba(253,79,79,1));
+    background: -moz-linear-gradient(left,rgba(214,42,67,0.1), rgba(253,79,79,0.9), rgba(253,79,79,1));
+    background: linear-gradient(to right, rgba(214,42,67,0.1), rgba(253,79,79,0.9), rgba(253,79,79,1));
+}
+
+.page3-info-outer {
+    display: flex;
+    float: right;
+    width: 50%;
+    height: 100%;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    -webkit-flex-direction: column;
+}
+
+.page3-h1 {
+    /*width: 100%;*/
+    padding: 10px 50px 10px 50px;
+    text-align: left;
+    font-family: Dense-Bold;
+    font-size:50px;
+}
+
+.page3-p {
+    /*width: 100%;*/
+    padding: 10px 50px 10px 50px;
+    text-align: left;
+    font-family: SanFran-UltraLight;
+}
+/*----------------------------------------------------------------------------*/
+
+.page4 {
+    background-color: #f4f4f4;
+    width: 100%;
+}
+
+.teamPage {
+    padding: 50px;
+    display:block;
+    overflow:auto;
+}
+
+.teamPage h2 {
+    text-align: center;
+    font-family: Dense-Bold;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+.teamPage p {
+    text-align: center;
+    font-family: Dense-Regular;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+
+}
+
+.teamPage ul {
+  padding: 0 50px 0 50px;
+  margin: 0;
+  margin-top: 50px;
+  list-style: none;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.teamPage ul li {
+    padding: 0px;
+    width: 150px;
+    height: 150px;
+    margin-top: 0px;
+    text-align: center;
+    clear: both;
+    color: black;
+    display: flex;
+    -webkit-flex-flow: column wrap;
+}
+
+.circlebox {
+	width: 100%;
+	height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*.circlebox:hover + .name {
+    background-color: green;
+    opacity: 0.5;
+    display: block;
+}*/
+
+.figcaption h1 {
+    font-size: 12px;
+    font-family: SanFran-SemiBold;
+
+}
+
+.figcaption h3 {
+    font-size: 9px;
+    font-family: SanFran-UltraLight;
+}
+
+#circle {
+	width: 100px;
+	height: 100px;
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+
+    display:block;
+    position:relative;
+	/*-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;*/
+    backface-visibility:hidden;
+    -webkit-transition:all .5s;
+    -moz-transition:all .5s;
+    transition:all .5s
+}
+
+.figure {
+    margin:0;
+    padding:0;
+    position:relative;
+    cursor:pointer;
+    margin-left:-50px
+}
+
+.figure .figcaption {
+    display:block;
+    position:absolute;
+    z-index:5;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box
+}
+
+.figcaption {
+    top:30px;
+    left:0;
+    width:100%;
+    height:100%;
+    /*padding:29px 44px;*/
+
+    background-color:#f5f5f5;
+    text-align:center;
+    backface-visibility:hidden;
+    -webkit-transform:rotateY(-180deg);
+    -moz-transform:rotateY(-180deg);
+    transform:rotateY(-180deg);
+    -webkit-transition:all .5s;
+    -moz-transition:all .5s;
+    transition:all .5s
+}
+
+.figure:hover #circle,.figure.hover #cirlce {
+    -webkit-transform:rotateY(180deg);
+    -moz-transform:rotateY(180deg);
+    transform:rotateY(180deg)
+}
+.figure:hover .figcaption,.figure.hover .figcaption {
+    -webkit-transform:rotateY(0);
+    -moz-transform:rotateY(0);
+    transform:rotateY(0)
+}
+/*----------------------------------------------------------------------------*/
+.page5 {
+    /*background-image: url("../images/city.jpeg");*/
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+}
+
+.apPage {
+    width: 100%;
+    padding: 40px;
+    /*background: rgba(0, 0, 0, 0.8);*/
+    display: flex;
+    -webkit-flex-flow: column wrap;
+    text-align: center;
+    justify-content: center;
+    color: white;
+}
+
+.heading {
+    width: 500px;
+    margin: 0;
+    padding: 0;
+    background: pink;
+}
+
+.heading h1 {
+	display: inline;
+	position: relative;
+    font-size: 50px;
+    font-family: Dense-Bold;
+    text-transform: uppercase;
+	color: rgba(0,0,255,0.5);
+}
+
+.heading h1:after {
+	content: "WHAT ABOUT THE AFTER PARTY?";
+	position: absolute;
+    left: 0px;
+    top: 5px;
+	color: rgba(255,0,0,0.5);
+}
+
+
+.apPage h3 {
+    font-size: 20px;
+    font-family: Dense-Regular;
+    text-transform: uppercase;
+}
+
+/*----------------------------------------------------------------------------*/
+
+footer {
+    height: 200px;
+    background: #202020;
+    position:relative;
+    z-index: -1;
+}
+
+footer > .footer{
+	width:400px;
+    height:150px;
+	position:fixed;
+	left:50%;
+	bottom:0;
+	margin-left:-200px;
+    margin-bottom: 30px;
+	z-index:-5;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.footerbox {
+    display: block;
+}
+
+.copyright {
+    text-transform: uppercase;
+    font-family: SanFran-UltraLight;
+    letter-spacing: 0.45em;
+    color: #cccccc;
+    padding: 2px;
+}
+
+.copyright span a {
+    text-decoration: none;
+    font-family: SanFran-SemiBold;
+    font-weight: 800;
+    color: white;
+}
+
+
+/*----------------------------------------------------------------------------*/
+
+@font-face {
+    font-family: SanFran-Bold;
+    src: url('../fonts/SanFranciscoDisplay-Bold.otf');
+}
+
+@font-face {
+    font-family: SanFran-SemiBold;
+    src: url('../fonts/SanFranciscoDisplay-Semibold.otf');
+}
+
+@font-face {
+    font-family: SanFran-UltraLight;
+    src: url('../fonts/SanFranciscoDisplay-Ultralight.otf');
+}
+
+@font-face {
+    font-family: Ollie;
+    src: url('../fonts/Ollie.otf');
+}
+
+
+@font-face {
+    font-family: Dense-Bold;
+    src: url('../fonts/Dense-Bold.ttf');
+}
+
+@font-face {
+    font-family: Dense-Regular;
+    src: url('../fonts/Dense-Regular.otf');
+}
+
+/*----------------------------------------------------------------------------*/
+@media screen and (max-width: 950px) {
+    .page1-info-inner {
+        margin-top: 50px;
+    }
+
+    .div-Page1Info {
+        padding: 0px;
+        padding-top: 10px;
+        padding-bottom: 5px;
+    }
+
+    header ul {
+        height: 100px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    header ul li {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .page1-info-inner {
+        margin-top: 50px;
+    }
+
+    .div-Page1Info {
+        padding: 0px;
+        padding-top: 10px;
+        padding-bottom: 5px;
+    }
+
+    header ul {
+        height: 100px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    header ul li {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .page3-info-outer {
+        width: 100%;
+    }
+}
+
+/*414px*/
+@media screen and (max-width: 515px) {
+
+    .main {
+        height: calc(100% - 200px);
+    }
+
+    #page1 {
+        margin-top: 0px;
+    }
+
+    .page1-info-inner {
+        margin-top: 0px;
+    }
+
+    .page1-info-outer {
+        width: 100%;
+    }
+
+
+    .page1-info-inner {
+        width: 80%;
+    }
+
+    .div-Page1Info {
+        padding: 0px;
+        padding-top: 10px;
+        padding-bottom: 5px;
+    }
+
+
+    .page3-info-outer {
+        width: 100%;
+    }
+
+    .page3-h1 {
+        margin: 15px;
+        padding: 0;
+        text-align: left;
+        font-family: Dense-Bold;
+        font-size:50px;
+    }
+
+    .page3-p {
+        width: 100%;
+        text-align: left;
+        padding: 0;
+        margin: 15px;
+    }
+
+    .teamPage ul {
+        padding: 0;
+    }
+
+    header {
+        position: relative;
+    }
+
+    header ul {
+        height: 200px;
+        padding-left: 0;
+        padding-right: 0;
+        padding-top: 20px;
+        -webkit-flex-flow: column wrap;
+    }
+
+    header ul li {
+        display: flex;
+    }
+
+    header ul li a {
+        display: flex;
+    }
+
+    .li1 {
+        flex: 1;
+        order: 2;
+    }
+
+    .li2 {
+        flex: 1;
+        order: 1;
+    }
+
+    .li3 {
+        flex: 1;
+        order: 3;
+        width: 50%;
+        background: pink;
+    }
+}
