@@ -107,13 +107,17 @@ header ul li a {
 }
 
 .page1-info-inner {
-    display: inline-block;
+    display: flex;
     margin: auto;
-    padding: 20px;
-    margin-top: 50px;
+    /*margin: 20px;*/
+    /*margin-top: 50px;*/
+    height: 100%;
+    /*background: red;*/
+    align-items: center;
     justify-content: center;
-
+    -webkit-flex-direction: column;
 }
+
 
 .div-Page1Info {
     display: inline-block;
@@ -130,6 +134,7 @@ header ul li a {
     text-align: center;
     font-size: 60px;
     text-transform: uppercase;
+    width: 100%;
 
 }
 
@@ -400,44 +405,32 @@ header ul li a {
 /*----------------------------------------------------------------------------*/
 .page5 {
     /*background-image: url("../images/city.jpeg");*/
-    background-repeat: no-repeat;
+    /*background-repeat: no-repeat;
     background-position: right;
-    background-size: cover;
+    background-size: cover;*/
+    background-color: #f4f4f4;
+    width: 100%;
+
+
 }
 
 .apPage {
-    width: 100%;
-    padding: 40px;
-    /*background: rgba(0, 0, 0, 0.8);*/
-    display: flex;
-    -webkit-flex-flow: column wrap;
+    background: rgba(255, 255, 255, 1);
+    padding: 50px;
+
+    display:block;
+    overflow:auto;
     text-align: center;
-    justify-content: center;
-    color: white;
 }
 
-.heading {
-    width: 500px;
-    margin: 0;
-    padding: 0;
-    background: pink;
-}
-
-.heading h1 {
+.apPage h1 {
 	display: inline;
 	position: relative;
     font-size: 50px;
     font-family: Dense-Bold;
     text-transform: uppercase;
 	color: rgba(0,0,255,0.5);
-}
-
-.heading h1:after {
-	content: "WHAT ABOUT THE AFTER PARTY?";
-	position: absolute;
-    left: 0px;
-    top: 5px;
-	color: rgba(255,0,0,0.5);
+    margin-bottom: 25px;
 }
 
 
