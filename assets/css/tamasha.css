@@ -1,79 +1,3 @@
-* {
-    margin: 0;
-    padding: 0;
-}
-
-html, body {
-    height: 100%;
-    min-height: 716px;
-    width: 100%;
-}
-/*----------------------------------------------------------------------------*/
-
-header {
-    position: fixed;
-    width: 100%;
-    background: rgba(255, 255, 255, 1);
-    top:0px;
-    z-index: 10;
-}
-
-header ul {
-    height: 100px;
-    padding-left: 150px;
-    padding-right: 150px;
-
-    list-style: none;
-    display: flex;
-    -webkit-flex-flow: row wrap;
-    align-items: center;
-    justify-content: center;
-}
-
-header ul li {
-    text-align: center;
-    justify-content: center;
-    display: inline-block;
-}
-
-
-header ul li a {
-    text-decoration: none;
-    display: inline-block;
-}
-
-/*header ul li a:hover {
-    color: rgba(0, 0, 0, 0.7);
-}*/
-
-.li1 {
-    flex: 2;
-    text-align: left;
-    transition: 1s;
-}
-
-.li1:hover {
-   margin-left:-10px;
-}
-
-.li2 {
-    flex: 10;
-    font-family: Ollie;
-    font-size: 50px;
-    color: black;
-}
-
-
-.li3 {
-    flex: 1;
-    transition: 1s;
-}
-
-.li3:hover {
-    margin-right:-10px;
-}
-/*----------------------------------------------------------------------------*/
-
 .main {
     height: calc(100% - 100px);
 }
@@ -103,7 +27,6 @@ header ul li a {
     height: 100%;
     text-align: center;
     justify-content: center;
-
 }
 
 .page1-info-inner {
@@ -208,6 +131,11 @@ header ul li a {
 .answer {
     font-family: Dense-Bold;
     font-size: 50px;
+}
+
+.answer a {
+    text-decoration: none;
+    color: #fd4f4f;
 }
 
 .explanation {
@@ -379,7 +307,6 @@ header ul li a {
     left:0;
     width:100%;
     height:100%;
-    /*padding:29px 44px;*/
 
     background-color:#f5f5f5;
     text-align:center;
@@ -404,20 +331,13 @@ header ul li a {
 }
 /*----------------------------------------------------------------------------*/
 .page5 {
-    /*background-image: url("../images/city.jpeg");*/
-    /*background-repeat: no-repeat;
-    background-position: right;
-    background-size: cover;*/
     background-color: #f4f4f4;
     width: 100%;
-
-
 }
 
 .apPage {
     background: rgba(255, 255, 255, 1);
     padding: 50px;
-
     display:block;
     overflow:auto;
     text-align: center;
@@ -429,7 +349,7 @@ header ul li a {
     font-size: 50px;
     font-family: Dense-Bold;
     text-transform: uppercase;
-	color: rgba(0,0,255,0.5);
+	color: rgba(253,79,79,1);
     margin-bottom: 25px;
 }
 
@@ -440,82 +360,22 @@ header ul li a {
     text-transform: uppercase;
 }
 
-/*----------------------------------------------------------------------------*/
-
-footer {
-    height: 200px;
-    background: #202020;
-    position:relative;
-    z-index: -1;
+.blacklitparty {
+    background-color: #141414;
 }
 
-footer > .footer{
-	width:400px;
-    height:150px;
-	position:fixed;
-	left:50%;
-	bottom:0;
-	margin-left:-200px;
-    margin-bottom: 30px;
-	z-index:-5;
-    display: flex;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
+.blacklitparty h1 {
+    color: #e7def9;
+    text-shadow: 0 0 15px #9048c6;
 }
 
-.footerbox {
-    display: block;
-}
 
-.copyright {
-    text-transform: uppercase;
-    font-family: SanFran-UltraLight;
-    letter-spacing: 0.45em;
-    color: #cccccc;
-    padding: 2px;
+.blacklitparty h3 {
+    color: #1ffbd8;
+    text-shadow: 0 0 15px #42e0d2;
 }
-
-.copyright span a {
-    text-decoration: none;
-    font-family: SanFran-SemiBold;
-    font-weight: 800;
-    color: white;
-}
-
 
 /*----------------------------------------------------------------------------*/
-
-@font-face {
-    font-family: SanFran-Bold;
-    src: url('../fonts/SanFranciscoDisplay-Bold.otf');
-}
-
-@font-face {
-    font-family: SanFran-SemiBold;
-    src: url('../fonts/SanFranciscoDisplay-Semibold.otf');
-}
-
-@font-face {
-    font-family: SanFran-UltraLight;
-    src: url('../fonts/SanFranciscoDisplay-Ultralight.otf');
-}
-
-@font-face {
-    font-family: Ollie;
-    src: url('../fonts/Ollie.otf');
-}
-
-
-@font-face {
-    font-family: Dense-Bold;
-    src: url('../fonts/Dense-Bold.ttf');
-}
-
-@font-face {
-    font-family: Dense-Regular;
-    src: url('../fonts/Dense-Regular.otf');
-}
 
 /*----------------------------------------------------------------------------*/
 @media screen and (max-width: 950px) {
@@ -541,16 +401,6 @@ footer > .footer{
 }
 
 @media screen and (max-width: 768px) {
-    .page1-info-inner {
-        margin-top: 50px;
-    }
-
-    .div-Page1Info {
-        padding: 0px;
-        padding-top: 10px;
-        padding-bottom: 5px;
-    }
-
     header ul {
         height: 100px;
         padding-left: 10px;
@@ -561,13 +411,23 @@ footer > .footer{
         padding-right: 10px;
     }
 
+    .page1-info-inner {
+        margin-top: 50px;
+    }
+
+    .div-Page1Info {
+        padding: 0px;
+        padding-top: 10px;
+        padding-bottom: 5px;
+    }
+
     .page3-info-outer {
         width: 100%;
     }
 }
 
 /*414px*/
-@media screen and (max-width: 515px) {
+@media screen and (max-width: 420px) {
 
     .main {
         height: calc(100% - 200px);
@@ -596,64 +456,25 @@ footer > .footer{
         padding-bottom: 5px;
     }
 
-
     .page3-info-outer {
         width: 100%;
     }
 
     .page3-h1 {
-        margin: 15px;
-        padding: 0;
+        /*margin: 15px;*/
+        /*padding: 0;*/
         text-align: left;
         font-family: Dense-Bold;
         font-size:50px;
     }
 
     .page3-p {
-        width: 100%;
+        /*width: 100%;*/
         text-align: left;
-        padding: 0;
-        margin: 15px;
+        padding: 10px 40px 10px 40px;
     }
 
     .teamPage ul {
         padding: 0;
-    }
-
-    header {
-        position: relative;
-    }
-
-    header ul {
-        height: 200px;
-        padding-left: 0;
-        padding-right: 0;
-        padding-top: 20px;
-        -webkit-flex-flow: column wrap;
-    }
-
-    header ul li {
-        display: flex;
-    }
-
-    header ul li a {
-        display: flex;
-    }
-
-    .li1 {
-        flex: 1;
-        order: 2;
-    }
-
-    .li2 {
-        flex: 1;
-        order: 1;
-    }
-
-    .li3 {
-        flex: 1;
-        order: 3;
-        width: 50%;
-        background: pink;
     }
 }

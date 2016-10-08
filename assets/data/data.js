@@ -1,4 +1,4 @@
-var deadline = new Date(Date.parse(new Date(2016, 11, 5, 6, 0, 0, 0)));
+var deadline = new Date(Date.parse(new Date(2016, 11-1, 5, 16, 0, 0, 0)));
 
 var teams = [
     {"pic":"assets/data/teams/crown.png", "teamName":"Coming Soon", "category":"Sept. 30", "facebookLink": "https://www.facebook.com/"},
@@ -21,14 +21,10 @@ var teams = [
 
 
 var sponsors = [
-    {"pic":"assets/data/sponsors/starbucks.png", "company":"Starbucks", "website": "https://www.facebook.com/"},
-    {"pic":"assets/data/sponsors/starbucks.png", "company":"Starbucks", "website": "https://www.facebook.com/"},
-    {"pic":"assets/data/sponsors/starbucks.png", "company":"Starbucks", "website": "https://www.facebook.com/"},
-    {"pic":"assets/data/sponsors/starbucks.png", "company":"Starbucks", "website": "https://www.facebook.com/"},
-    {"pic":"assets/data/sponsors/starbucks.png", "company":"Starbucks", "website": "https://www.facebook.com/"},
-    {"pic":"assets/data/sponsors/starbucks.png", "company":"Starbucks", "website": "https://www.facebook.com/"},
-    {"pic":"assets/data/sponsors/starbucks.png", "company":"Starbucks", "website": "https://www.facebook.com/"},
-    {"pic":"assets/data/sponsors/starbucks.png", "company":"Starbucks", "website": "https://www.facebook.com/"}
+    {"pic":"assets/data/sponsors/bezoria.png", "company":"Bezoria", "website": "https://www.bezoria.com/"},
+    {"pic":"assets/data/sponsors/uconnections.png", "company":"UConnection", "website": "https://uconnection.com/index"},
+    {"pic":"assets/data/sponsors/artees.png", "company":"Artees Custom Screen Printing and Embroidery", "website": "https://www.http://arteescorp.com/"},
+    {"pic":"assets/data/sponsors/whichwich.png", "company":"Which Wich Superior Sandwiches", "website": "https://www.whichwich.com/#!/"},
 ];
 
 var board = [
