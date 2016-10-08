@@ -272,7 +272,11 @@ footer > .footer{
 	width:400px;
     height:100px;
 	position:fixed;
-	bottom:0;
+	/*bottom:0;*/
+    left:50%;
+    bottom:0;
+    margin-left:-200px;
+    margin-bottom: 0px;
 	z-index:-1;
     display: flex;
     text-align: center;
@@ -281,6 +285,7 @@ footer > .footer{
 }
 
 .footerbox {
+    display: block;
 }
 
 .copyright {
