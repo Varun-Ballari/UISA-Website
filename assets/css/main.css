@@ -45,7 +45,7 @@ header ul li a {
 
 .li5 {
     flex: 2;
-    font-family: Dense;
+    font-family: Dense-Regular;
     font-size: 25px;
 }
 
@@ -55,7 +55,7 @@ header ul li a {
 
 .li2 {
     flex: 10;
-    font-family: Dense;
+    font-family: Dense-Regular;
     font-size: 40px;
     color: black;
     text-transform: uppercase;

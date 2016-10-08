@@ -1,22 +1,22 @@
 var deadline = new Date(Date.parse(new Date(2016, 11-1, 5, 16, 0, 0, 0)));
 
 var teams = [
-    {"pic":"assets/data/teams/crown.png", "teamName":"Coming Soon", "category":"Sept. 30", "facebookLink": "https://www.facebook.com/"},
-    {"pic":"assets/data/teams/crown.png", "teamName":"Coming Soon", "category":"Sept. 30", "facebookLink": "https://www.facebook.com/"},
-    {"pic":"assets/data/teams/crown.png", "teamName":"Coming Soon", "category":"Sept. 30", "facebookLink": "https://www.facebook.com/"},
-    {"pic":"assets/data/teams/crown.png", "teamName":"Coming Soon", "category":"Sept. 30", "facebookLink": "https://www.facebook.com/"},
-    {"pic":"assets/data/teams/crown.png", "teamName":"Coming Soon", "category":"Sept. 30", "facebookLink": "https://www.facebook.com/"},
-    {"pic":"assets/data/teams/crown.png", "teamName":"Coming Soon", "category":"Sept. 30", "facebookLink": "https://www.facebook.com/"},
-    {"pic":"assets/data/teams/crown.png", "teamName":"Coming Soon", "category":"Sept. 30", "facebookLink": "https://www.facebook.com/"},
-    {"pic":"assets/data/teams/crown.png", "teamName":"Coming Soon", "category":"Sept. 30", "facebookLink": "https://www.facebook.com/"},
-    {"pic":"assets/data/teams/crown.png", "teamName":"Coming Soon", "category":"Sept. 30", "facebookLink": "https://www.facebook.com/"},
-    {"pic":"assets/data/teams/crown.png", "teamName":"Coming Soon", "category":"Sept. 30", "facebookLink": "https://www.facebook.com/"},
-    {"pic":"assets/data/teams/crown.png", "teamName":"Coming Soon", "category":"Sept. 30", "facebookLink": "https://www.facebook.com/"},
-    {"pic":"assets/data/teams/crown.png", "teamName":"Coming Soon", "category":"Sept. 30", "facebookLink": "https://www.facebook.com/"},
-    {"pic":"assets/data/teams/crown.png", "teamName":"Coming Soon", "category":"Sept. 30", "facebookLink": "https://www.facebook.com/"},
-    {"pic":"assets/data/teams/crown.png", "teamName":"Coming Soon", "category":"Sept. 30", "facebookLink": "https://www.facebook.com/"},
-    {"pic":"assets/data/teams/crown.png", "teamName":"Coming Soon", "category":"Sept. 30", "facebookLink": "https://www.facebook.com/"},
-    {"pic":"assets/data/teams/crown.png", "teamName":"Coming Soon", "category":"Sept. 30", "facebookLink": "https://www.facebook.com/"}
+    {"pic":"assets/data/teams/CrownColor.png", "teamName":"Coming Soon", "category":"Bhangra", "facebookLink": "https://www.facebook.com/"},
+    {"pic":"assets/data/teams/CrownColor.png", "teamName":"Coming Soon", "category":"Bhangra", "facebookLink": "https://www.facebook.com/"},
+    {"pic":"assets/data/teams/CrownColor.png", "teamName":"Coming Soon", "category":"Bhangra", "facebookLink": "https://www.facebook.com/"},
+    {"pic":"assets/data/teams/CrownColor.png", "teamName":"Coming Soon", "category":"Bhangra", "facebookLink": "https://www.facebook.com/"},
+    {"pic":"assets/data/teams/CrownColor.png", "teamName":"Coming Soon", "category":"Bollywood Fusion", "facebookLink": "https://www.facebook.com/"},
+    {"pic":"assets/data/teams/CrownColor.png", "teamName":"Coming Soon", "category":"Bollywood Fusion", "facebookLink": "https://www.facebook.com/"},
+    {"pic":"assets/data/teams/CrownColor.png", "teamName":"Coming Soon", "category":"Bollywood Fusion", "facebookLink": "https://www.facebook.com/"},
+    {"pic":"assets/data/teams/CrownColor.png", "teamName":"Coming Soon", "category":"Bollywood Fusion", "facebookLink": "https://www.facebook.com/"},
+    {"pic":"assets/data/teams/CrownColor.png", "teamName":"Coming Soon", "category":"Classical", "facebookLink": "https://www.facebook.com/"},
+    {"pic":"assets/data/teams/CrownColor.png", "teamName":"Coming Soon", "category":"Classical", "facebookLink": "https://www.facebook.com/"},
+    {"pic":"assets/data/teams/CrownColor.png", "teamName":"Coming Soon", "category":"Classical", "facebookLink": "https://www.facebook.com/"},
+    {"pic":"assets/data/teams/CrownColor.png", "teamName":"Coming Soon", "category":"Classical", "facebookLink": "https://www.facebook.com/"},
+    {"pic":"assets/data/teams/CrownColor.png", "teamName":"Coming Soon", "category":"Garba Raas", "facebookLink": "https://www.facebook.com/"},
+    {"pic":"assets/data/teams/CrownColor.png", "teamName":"Coming Soon", "category":"Garba Raas", "facebookLink": "https://www.facebook.com/"},
+    {"pic":"assets/data/teams/CrownColor.png", "teamName":"Coming Soon", "category":"Garba Raas", "facebookLink": "https://www.facebook.com/"},
+    {"pic":"assets/data/teams/CrownColor.png", "teamName":"Coming Soon", "category":"Garba Raas", "facebookLink": "https://www.facebook.com/"}
 ];
 
 

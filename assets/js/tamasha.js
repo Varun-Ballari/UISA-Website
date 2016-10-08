@@ -45,19 +45,14 @@ function getDataFromTeams(arr) {
         var out = "";
         var i;
         for(i = 0; i < arr.length; i++) {
-            out += `<li>
-                <figure class="figure">
-                <div class="circlebox">
-                <p id="circle" style="background-image: url(` + arr[i].pic + `)"></p>
-                </div>
-                <figcaption class="figcaption">
-                <h1>` + arr[i].teamName + `</h1>
-                <h3>` + arr[i].category + `</h3>
-
-                </figcaption>
-                </figure>
-                </li>`;
-        }
+            out +=`<div class="teamLogo" style="background-image: url(` + arr[i].pic + `)">
+                        <div class="teamInfo">
+                            <div class="teamName">
+                                <p><strong>` + arr[i].teamName + `</strong></p>
+                                <p>` + arr[i].category + `</p>
+                            </div>
+                        </div>
+                    </div>`;}
 document.getElementById("teams").innerHTML = out;
 }
 
