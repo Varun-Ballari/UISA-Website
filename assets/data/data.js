@@ -23,7 +23,7 @@ var teams = [
 var sponsors = [
     {"pic":"assets/data/sponsors/bezoria.png", "company":"Bezoria", "website": "https://www.bezoria.com/"},
     {"pic":"assets/data/sponsors/uconnections.png", "company":"UConnection", "website": "https://uconnection.com/index"},
-    {"pic":"assets/data/sponsors/artees.png", "company":"Artees Custom Screen Printing and Embroidery", "website": "https://www.http://arteescorp.com/"},
+    {"pic":"assets/data/sponsors/artees.png", "company":"Artees Custom Screen Printing and Embroidery", "website": "https://www.arteescorp.com/"},
     {"pic":"assets/data/sponsors/whichwich.png", "company":"Which Wich Superior Sandwiches", "website": "https://www.whichwich.com/#!/"},
 ];
 
