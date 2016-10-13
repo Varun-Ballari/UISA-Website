@@ -1,22 +1,21 @@
 var deadline = new Date(Date.parse(new Date(2016, 11-1, 5, 16, 0, 0, 0)));
 
 var teams = [
-    {"pic":"assets/data/teams/CrownColor.png", "teamName":"Coming Soon", "category":"Bhangra", "facebookLink": "https://www.facebook.com/"},
-    {"pic":"assets/data/teams/CrownColor.png", "teamName":"Coming Soon", "category":"Bhangra", "facebookLink": "https://www.facebook.com/"},
-    {"pic":"assets/data/teams/CrownColor.png", "teamName":"Coming Soon", "category":"Bhangra", "facebookLink": "https://www.facebook.com/"},
-    {"pic":"assets/data/teams/CrownColor.png", "teamName":"Coming Soon", "category":"Bhangra", "facebookLink": "https://www.facebook.com/"},
-    {"pic":"assets/data/teams/CrownColor.png", "teamName":"Coming Soon", "category":"Bollywood Fusion", "facebookLink": "https://www.facebook.com/"},
-    {"pic":"assets/data/teams/CrownColor.png", "teamName":"Coming Soon", "category":"Bollywood Fusion", "facebookLink": "https://www.facebook.com/"},
-    {"pic":"assets/data/teams/CrownColor.png", "teamName":"Coming Soon", "category":"Bollywood Fusion", "facebookLink": "https://www.facebook.com/"},
-    {"pic":"assets/data/teams/CrownColor.png", "teamName":"Coming Soon", "category":"Bollywood Fusion", "facebookLink": "https://www.facebook.com/"},
-    {"pic":"assets/data/teams/CrownColor.png", "teamName":"Coming Soon", "category":"Classical", "facebookLink": "https://www.facebook.com/"},
-    {"pic":"assets/data/teams/CrownColor.png", "teamName":"Coming Soon", "category":"Classical", "facebookLink": "https://www.facebook.com/"},
-    {"pic":"assets/data/teams/CrownColor.png", "teamName":"Coming Soon", "category":"Classical", "facebookLink": "https://www.facebook.com/"},
-    {"pic":"assets/data/teams/CrownColor.png", "teamName":"Coming Soon", "category":"Classical", "facebookLink": "https://www.facebook.com/"},
-    {"pic":"assets/data/teams/CrownColor.png", "teamName":"Coming Soon", "category":"Garba Raas", "facebookLink": "https://www.facebook.com/"},
-    {"pic":"assets/data/teams/CrownColor.png", "teamName":"Coming Soon", "category":"Garba Raas", "facebookLink": "https://www.facebook.com/"},
-    {"pic":"assets/data/teams/CrownColor.png", "teamName":"Coming Soon", "category":"Garba Raas", "facebookLink": "https://www.facebook.com/"},
-    {"pic":"assets/data/teams/CrownColor.png", "teamName":"Coming Soon", "category":"Garba Raas", "facebookLink": "https://www.facebook.com/"}
+    {"pic":"assets/data/teams/qurbani2.png", "teamName":"GT Qurbani", "category":"Bollywood Fusion", "facebookLink": "https://www.facebook.com/"},
+    {"pic":"assets/data/teams/satrangi.png", "teamName":"ATL Satrangi", "category":"Bollywood Fusion", "facebookLink": "https://www.facebook.com/"},
+    {"pic":"assets/data/teams/gatoradaa.png", "teamName":"Gator Adaa", "category":"Bollywood Fusion", "facebookLink": "https://www.facebook.com/"},
+    {"pic":"assets/data/teams/tanishq.png", "teamName":"ATL Tanishq", "category":"Bollywood Fusion", "facebookLink": "https://www.facebook.com/"},
+
+    {"pic":"assets/data/teams/jazba.png", "teamName":"GT Bhangra", "category":"Bhangra", "facebookLink": "https://www.facebook.com/"},
+    {"pic":"assets/data/teams/talwar.png", "teamName":"UGA Talwar", "category":"Bhangra", "facebookLink": "https://www.facebook.com/"},
+    {"pic":"assets/data/teams/CrownColor.png", "teamName":"Emory Karma", "category":"Bhangra", "facebookLink": "https://www.facebook.com/"},
+    {"pic":"assets/data/teams/vanderbilt.png", "teamName":"Vanderbilt Bhangradores", "category":"Bhangra", "facebookLink": "https://www.facebook.com/"},
+
+    {"pic":"assets/data/teams/saraas.png", "teamName":"Emory SaRaas", "category":"Garba Raas", "facebookLink": "https://www.facebook.com/"},
+    {"pic":"assets/data/teams/CrownColor.png", "teamName":"GT Ramblin' Raas", "category":"Garba Raas", "facebookLink": "https://www.facebook.com/"},
+    {"pic":"assets/data/teams/piratesraas.png", "teamName":"Pirate Raas", "category":"Garba Raas", "facebookLink": "https://www.facebook.com/"},
+
+    {"pic":"assets/data/teams/taaltadka.png", "teamName":"Taal Tadka", "category":"Exhibition", "facebookLink": "https://www.facebook.com/"}
 ];
 
 
