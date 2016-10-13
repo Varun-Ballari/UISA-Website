@@ -96,6 +96,10 @@
     background-color: #fd4f4f;
     color: white;
 }
+
+.button a {
+    text-decoration: none;
+}
 /*----------------------------------------------------------------------------*/
 
 .page2 {
@@ -328,7 +332,7 @@
 
 @media screen and (max-width: 950px) {
     .page1-info-inner {
-        margin-top: 50px;
+        margin-top: 0px;
     }
 
     .div-Page1Info {
