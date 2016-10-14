@@ -8,7 +8,7 @@ var teams = [
 
     {"pic":"assets/data/teams/jazba.png", "teamName":"GT Bhangra", "category":"Bhangra", "facebookLink": "https://www.facebook.com/"},
     {"pic":"assets/data/teams/talwar.png", "teamName":"UGA Talwar", "category":"Bhangra", "facebookLink": "https://www.facebook.com/"},
-    {"pic":"assets/data/teams/CrownColor.png", "teamName":"Emory Karma", "category":"Bhangra", "facebookLink": "https://www.facebook.com/"},
+    {"pic":"assets/data/teams/karma.png", "teamName":"Emory Karma", "category":"Bhangra", "facebookLink": "https://www.facebook.com/"},
     {"pic":"assets/data/teams/vanderbilt.png", "teamName":"Vanderbilt Bhangradores", "category":"Bhangra", "facebookLink": "https://www.facebook.com/"},
 
     {"pic":"assets/data/teams/saraas.png", "teamName":"Emory SaRaas", "category":"Garba Raas", "facebookLink": "https://www.facebook.com/"},
