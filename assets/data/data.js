@@ -12,7 +12,7 @@ var teams = [
     {"pic":"assets/data/teams/vanderbilt.png", "teamName":"Vanderbilt Bhangradores", "category":"Bhangra", "facebookLink": "https://www.facebook.com/"},
 
     {"pic":"assets/data/teams/saraas.png", "teamName":"Emory SaRaas", "category":"Garba Raas", "facebookLink": "https://www.facebook.com/"},
-    {"pic":"assets/data/teams/CrownColor.png", "teamName":"GT Ramblin' Raas", "category":"Garba Raas", "facebookLink": "https://www.facebook.com/"},
+    {"pic":"assets/data/teams/raas.png", "teamName":"GT Ramblin' Raas", "category":"Garba Raas", "facebookLink": "https://www.facebook.com/"},
     {"pic":"assets/data/teams/piratesraas.png", "teamName":"Pirate Raas", "category":"Garba Raas", "facebookLink": "https://www.facebook.com/"},
 
     {"pic":"assets/data/teams/taaltadka.png", "teamName":"Taal Tadka", "category":"Exhibition", "facebookLink": "https://www.facebook.com/"}
