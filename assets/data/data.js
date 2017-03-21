@@ -1,4 +1,4 @@
-var deadline = new Date(Date.parse(new Date(2016, 11-1, 5, 16, 0, 0, 0)));
+var deadline = new Date(Date.parse(new Date(2017, 11-1, 5, 16, 0, 0, 0)));
 
 var teams = [
     {"pic":"assets/data/teams/qurbani2.png", "teamName":"GT Qurbani", "category":"Bollywood Fusion", "facebookLink": "https://www.facebook.com/"},
